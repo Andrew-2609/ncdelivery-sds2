@@ -23,9 +23,4 @@ public class ProductController {
 		List<ProductDTO> list = productService.findAllProducts();
 		return ResponseEntity.ok().body(list);
 	}
-	
-//	@PostMapping
-//	public ResponseEntity<ProductDTO> saveProduct() {
-//		
-//	}
 }
