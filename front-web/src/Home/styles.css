@@ -1,6 +1,6 @@
 .home-container {
-    padding-top: 100px;
-    height: calc(100vh - 254px);
+    padding-top: 2em;
+    height: calc(100em - 70.0625em);
   }
   
   .home-container h1 {
@@ -14,50 +14,50 @@
   
   .home-title {
     font-weight: bold;
-    font-size: 55px;
-    line-height: 58px;
+    font-size: 3em;
+    line-height: 1.25em;
     letter-spacing: -0.015em;
     color: var(--dark-color);
-    margin-bottom: 40px !important;
+    margin-bottom: 0.75em !important;
   }
   
   .home-subtitle {
     font-weight: normal;
-    font-size: 24px;
-    line-height: 33px;
+    font-size: 1.5em;
+    line-height: 1.25em;
     letter-spacing: -0.015em;
     color: var(--secondary-color);
-    margin-bottom: 30px;
+    margin-bottom: 1em;
   }
   
   .home-btn-order {
     background-color: var(--primary-color);
     border-radius: 10px;
-    height: 70px;
-    width: 235px;
+    height: 2.5em;
+    width: 10em;
     display: inline-block;
     display: flex;
     align-items: center;
     justify-content: center;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 1.25em;
     letter-spacing: -0.015em;
     color: #FFF;
   }
   
   .home-btn-order:hover {
     background-color: var(--primary-hover-color);
-    transform: scale(1.01);
+    /* transform: scale(1.01); */
   }
   
   .home-image svg {
-    width: 100%;
+    width: 25em;
   }
   
   @media only screen and (max-width: 768px) {
     .home-container {
       height: auto;
-      margin-bottom: 50px;
+      margin-bottom: 3.125em;
     }
   
     .home-content {
@@ -65,7 +65,7 @@
     }
   
     .home-title {
-      font-size: 40px;
+      font-size: 2.5em;
     }
     
     .home-subtitle {
